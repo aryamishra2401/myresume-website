@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Noto+Sans&family=Raleway:wght@200&family=Titillium+Web:ital@1&display=swap');
+
+.AboutMeContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: #4831d4;
+    font-family: 'Bruno Ace' !important;
+    color: #ccf381;
+}
+
+.grid-container {
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color:  #ccf381;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #4831d4;
+}
+
+.AboutMe {
+    max-width: 50%;
+    padding: 5%;
+}
+
+/* .AboutMe > p {
+    color: #ccf381;
+} */
+
+.Skills {
+    max-width: 50%;
+    min-width: 50%;
+    padding: 5%;
+}
+
+@media screen and (max-width: 900px) {
+    .grid-container {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .grid-container {
+        grid-template-columns: auto;
+    }
+
+    .grid-item { 
+        font-size: 10px;
+    }
+}

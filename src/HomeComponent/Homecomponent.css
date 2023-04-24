@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Noto+Sans&family=Raleway:wght@200&family=Titillium+Web:ital@1&display=swap');
+
+.HomeComponentContainer {
+    display: flex;
+    flex-direction: row;
+    max-height: 90%;
+}
+
+.FirstDiv {
+    background-color: #4831d4;
+    width: 75%;
+    color: #ccf381;
+    padding: 10% 5%;
+    font-family: 'Bruno Ace' !important;
+}
+
+.FirstDiv > div {
+    border-bottom: 2px solid #ccf381;
+}
+
+.buttonsDiv {
+    padding: 2% 3%;
+}
+
+.buttonsDiv > a {
+    text-decoration: none;
+    color: #ccf381 !important;
+    margin: 5%;
+}
+
+.buttonsDiv > a > i {
+    font-size: 25px;
+    margin: 5%;
+}
+
+.DetailsDiv > h5 {
+    display: flex;
+    font-size: 18px;
+}
+
+.DetailsDiv > h5 > p {
+    margin-top: 0;
+    margin-left: 1vmax;
+    color: white;
+    font-weight: 400;
+}
+
+.ButtonDiv {
+    background: #ccf381;
+    padding: 1%;
+    font-size: 15px;
+    font-family: monospace;
+    cursor: pointer;
+    font-weight: 600;
+    color: #4831d4;
+    border: 1px solid #ccf381;
+    border-radius: 15px;
+}
+
+.SecondDiv {
+    background-color: #ccf381;
+    padding: 10% 5%;
+}
+
+@media screen and (max-width: 720px) {
+    .HomeComponentContainer {
+        flex-direction: column;
+    }
+
+    .FirstDiv {
+        width: 100%;
+    }
+}

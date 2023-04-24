@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Noto+Sans&family=Raleway:wght@200&family=Titillium+Web:ital@1&display=swap');
+
+
+.Footer{
+    display: flex;
+    justify-content: center;
+    padding: 2% 5%;
+    background-color: #ccf381;
+    font-family: 'Bruno Ace' !important;
+    color: #4831d4;
+}

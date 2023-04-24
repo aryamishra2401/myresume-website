@@ -1,0 +1,40 @@
+
+.Header {
+    width: 100%;
+    background-color: #4831d4;
+    position: fixed;
+}
+
+.Header > ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style-type: none;
+}
+
+.Header > ul >li{
+    margin: 1% 3%;
+}
+
+.Header > ul >li >a {
+    text-decoration: none;
+    color: white !important;
+    font-family: 'Bruno Ace' !important;
+    font-size: 25px;
+}
+
+.Header > ul >li >a:hover {
+    color: #ccf381 !important;
+    font-family: monospace !important;
+}
+
+@media screen and (max-width: 720px) {
+    .Header > ul{
+        justify-content: start;
+        text-align: left;
+    }
+
+    .Header > ul >li >a {
+        font-size: 15px;
+    }
+}
